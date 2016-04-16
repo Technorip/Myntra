@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="34c95c49-0188-462c-af39-07e85fd17517" name="mynthra" url="http://beta.buildfromzero.com">
+        <fileTransfer host="beta.buildfromzero.com" port="22" rootFolder="/home/tom/myntra" accessType="SFTP" password="dfd0dfd2dfd9dfcbdfdbdfdddf98df9bdfca" username="tom">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
