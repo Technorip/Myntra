@@ -7,6 +7,11 @@
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/env" />
+            <excludedPath local="true" path="$PROJECT_DIR$/mynt/migrations" />
+            <excludedPath local="true" path="$PROJECT_DIR$/db.sqlite3" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
