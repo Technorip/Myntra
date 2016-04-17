@@ -17,21 +17,20 @@ class user(models.Model):
     )
     gender =models.CharField(max_length=10,choices=gender_choice,default=male)
     age = models.IntegerField(default=None)
-    colour = models.CharField(max_length=20,default=None)
     casual = 'CA'
     formal = 'FO'
     fav_choice = (
         (casual,'casual'),
         (formal,('formal'))
     )
-    favourite =models.TextField(max_length=25,choices=fav_choice,default=casual)
+    favourite =models.CharField(max_length=25,choices=fav_choice,default=casual)
     sandel = 'SA'
     shoes = 'SHO'
     fav_foot = (
         (sandel, 'sandels'),
         (shoes, ('shoes'))
     )
-    foot_ware= models.TextField(max_length=25,choices=fav_foot,default=sandel)
+    foot_ware= models.CharField(max_length=25,choices=fav_foot,default=sandel)
 
 
     def __str__(self):
